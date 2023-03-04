@@ -5,7 +5,6 @@ import { AddCourseComponent } from './component/add-course/add-course.component'
 import { AddProfessorComponent } from './component/add-professor/add-professor.component';
 import { ApproveStudentComponent } from './component/approve-student/approve-student.component';
 import { AssignProfessorComponent } from './component/assign-professor/assign-professor.component';
-import { CalculateCpiComponent } from './component/calculate-cpi/calculate-cpi.component';
 import { DropCourseComponent } from './component/drop-course/drop-course.component';
 import { HomeComponent } from './component/home/home.component';
 import { LogoutComponent } from './component/logout/logout.component';
@@ -21,10 +20,8 @@ const routes: Routes = [
   { path: 'add-professor', component: AddProfessorComponent },
   { path: 'approve-student', component: ApproveStudentComponent },
   { path: 'assign-professor', component: AssignProfessorComponent },
-  { path: 'calculate-cpi', component: CalculateCpiComponent },
   { path: 'remove-course', component: DropCourseComponent },
   { path: 'view-courses', component: ViewCoursesComponent },
-  { path: 'calculate-cpi', component: CalculateCpiComponent },
   { path: 'view-admins', component: ViewAdminsComponent },
   { path: 'view-professors', component: ViewProfessorsComponent },
   { path: 'logout', component: LogoutComponent },

@@ -1,6 +1,6 @@
 <div class="container">
     <h1 class="mb-7 text-center">Add Professor</h1>
-    <form #addAdminForm="ngForm" class="row w-50 mx-auto gap-3 justify-content-center align-items-center"
+    <form #addProfessorForm="ngForm" class="row w-50 mx-auto gap-3 justify-content-center align-items-center"
         (ngSubmit)="addProfessor()">
         <div class="form-group">
             <label for="adminName" class="form-label">Professor Name</label>
@@ -31,6 +31,6 @@
             <input type="text" class="form-control" id="department" name="department" required
                 [(ngModel)]="professor.department">
         </div>
-        <button type="submit" class="btn btn-primary">Add Professor</button>
+        <button type="submit" class="btn btn-primary" [disabled]="!addProfessorForm.form.valid">Add Professor</button>
     </form>
 </div>

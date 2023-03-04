@@ -42,10 +42,6 @@ export class LayoutComponent implements OnInit {
       title: "View Courses"
     },
     {
-      name: "/calculate-cpi",
-      title: "Calculate CPI"
-    },
-    {
       name: "/view-professors",
       title: "View Professors"
     },

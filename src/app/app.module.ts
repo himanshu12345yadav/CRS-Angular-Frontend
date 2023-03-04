@@ -10,7 +10,6 @@ import { AddAdminComponent } from './component/add-admin/add-admin.component';
 import { AssignProfessorComponent } from './component/assign-professor/assign-professor.component';
 import { AddCourseComponent } from './component/add-course/add-course.component';
 import { DropCourseComponent } from './component/drop-course/drop-course.component';
-import { CalculateCpiComponent } from './component/calculate-cpi/calculate-cpi.component';
 import { ViewAdminsComponent } from './component/view-admins/view-admins.component';
 import { LogoutComponent } from './component/logout/logout.component';
 import { HomeComponent } from './component/home/home.component';
@@ -28,7 +27,6 @@ import { ViewProfessorsComponent } from './component/view-professors/view-profes
     AssignProfessorComponent,
     AddCourseComponent,
     DropCourseComponent,
-    CalculateCpiComponent,
     ViewAdminsComponent,
     LogoutComponent,
     HomeComponent,
