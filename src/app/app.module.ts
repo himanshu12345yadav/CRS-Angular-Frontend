@@ -11,14 +11,12 @@ import { AssignProfessorComponent } from './component/assign-professor/assign-pr
 import { AddCourseComponent } from './component/add-course/add-course.component';
 import { DropCourseComponent } from './component/drop-course/drop-course.component';
 import { CalculateCpiComponent } from './component/calculate-cpi/calculate-cpi.component';
-import { ViewProfessorComponent } from './component/view-professor/view-professor.component';
 import { ViewAdminsComponent } from './component/view-admins/view-admins.component';
 import { LogoutComponent } from './component/logout/logout.component';
 import { HomeComponent } from './component/home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ViewCoursesComponent } from './component/view-courses/view-courses.component';
-import { ViewProfessorsComponent } from './components/view-professors/view-professors.component';
-
+import { ViewProfessorComponent } from './component/view-professors/view-professors.component';
 
 @NgModule({
   declarations: [
@@ -31,12 +29,11 @@ import { ViewProfessorsComponent } from './components/view-professors/view-profe
     AddCourseComponent,
     DropCourseComponent,
     CalculateCpiComponent,
-    ViewProfessorComponent,
     ViewAdminsComponent,
     LogoutComponent,
     HomeComponent,
     ViewCoursesComponent,
-    ViewProfessorsComponent
+    ViewProfessorComponent
   ],
   imports: [
     BrowserModule,

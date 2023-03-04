@@ -1,1 +1,24 @@
-<p>drop-course works!</p>
+<div class="container">
+    <h1 class="text-center mb-3">Remove Course</h1>
+    <table class="table text-white table-responsive">
+        <thead>
+            <tr>
+                <th>Course Code</th>
+                <th>Course Name</th>
+                <th>Instructor Id</th>
+                <th>Fee</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let course of courses">
+                <td>{{ course.courseCode }}</td>
+                <td>{{ course.name }}</td>
+                <td>{{ course.instructor }}</td>
+                <td>{{ course.fee }}</td>
+                <td> <button type="submit" class="btn btn-danger" (click)="removeCourse(course)">Remove Course</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

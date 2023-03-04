@@ -11,7 +11,7 @@ import { HomeComponent } from './component/home/home.component';
 import { LogoutComponent } from './component/logout/logout.component';
 import { ViewAdminsComponent } from './component/view-admins/view-admins.component';
 import { ViewCoursesComponent } from './component/view-courses/view-courses.component';
-import { ViewProfessorComponent } from './component/view-professor/view-professor.component';
+import { ViewProfessorComponent } from './component/view-professors/view-professors.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
