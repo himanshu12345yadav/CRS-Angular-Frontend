@@ -6,7 +6,7 @@ export class Student {
     public fname: string;
     public bloodgroup: string;
     public phnum: string;
-    public name: string;
+    public studentName: string;
     public branch: string;
 
     constructor(
@@ -17,14 +17,8 @@ export class Student {
         fname: string,
         bloodgroup: string,
         phnum: string,
-        name: string,
+        studentName: string,
         branch: string,
-        userid: string,
-        username: string,
-        address: string,
-        password: string,
-        doj: string,
-        roleid: number
     ) {
         this.studentId = studentId;
         this.age = age;
@@ -33,7 +27,7 @@ export class Student {
         this.fname = fname;
         this.bloodgroup = bloodgroup;
         this.phnum = phnum;
-        this.name = name;
+        this.studentName = studentName;
         this.branch = branch;
     }
 }

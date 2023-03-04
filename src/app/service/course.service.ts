@@ -8,17 +8,17 @@ import { Course } from '../model/course';
 })
 export class CourseService {
   headers = new HttpHeaders().set('Content-Type', 'application/json').set('Access-Control-Allow-Origin', '*');
-  private root = 'http://localhost:8080/';
+  private root = 'http://localhost:8080/admin';
   courses: Array<Course> | null = null;
 
   constructor(private http: HttpClient) { }
 
   getCourses(): Observable<Course[]> {
-    return this.http.get<Course[]>(this.root + "listcourses", { headers: this.headers });
+    return this.http.get<Course[]>(`${this.root}/courses`, { headers: this.headers });
   }
   // Add a new course to the catalog
   addCourse(course: Course): Observable<any> {
-    return this.http.post<any>(`${this.root}` + 'addcourse', course, { headers: this.headers });
+    return this.http.post<any>(`${this.root}/addcourse`, course, { headers: this.headers });
   }
 
   // Remove an existing course from the catalog

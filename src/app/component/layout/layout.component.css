@@ -7,3 +7,7 @@ main {
     overflow-x: auto;
     overflow-y: hidden;
 }
+
+.nav-item a:hover {
+    background-color: #49545f;
+}

@@ -13,7 +13,7 @@
         <tbody>
             <tr *ngFor="let course of courses">
                 <td>{{ course.courseCode }}</td>
-                <td>{{ course.name }}</td>
+                <td>{{ course.courseName }}</td>
                 <td>{{ course.instructor }}</td>
                 <td>{{ course.fee }}</td>
                 <td> <button type="submit" class="btn btn-danger" (click)="removeCourse(course)">Remove Course</button>

@@ -10,7 +10,7 @@ import { Student } from '../model/student';
   providedIn: 'root'
 })
 export class AdminService {
-  private root = 'http://localhost:8080';
+  private root = 'http://localhost:8080/admin';
   private httpOptions = {
     headers: new HttpHeaders({
       'Content-Type': 'application/json'

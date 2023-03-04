@@ -3,21 +3,21 @@ export class Professor {
     username: string;
     department: string;
     designation: string;
-    courseTaught: string;
+    course: string;
 
     constructor(
         userId: string,
         username: string,
         department: string,
         designation: string,
-        courseTaught: string,
+        course: string,
 
     ) {
         this.userId = userId;
         this.department = department;
         this.designation = designation;
         this.username = username;
-        this.courseTaught = courseTaught;
+        this.course = course;
     }
 }
 
@@ -31,10 +31,9 @@ export class FormProfessor {
     roleid: number;
     department: string;
     designation: string;
-    courseTaught: string;
+    course: string;
 
     constructor(
-        userId: string,
         username: string,
         password: string,
         address: string,
@@ -42,13 +41,12 @@ export class FormProfessor {
         roleid: number,
         department: string,
         designation: string,
-        courseTaught: string,
     ) {
         this.userId = "123";
         this.department = department;
         this.designation = designation;
         this.username = username;
-        this.courseTaught = "NULL";
+        this.course = "NULL";
         this.doj = doj;
         this.roleid = roleid;
         this.password = password;

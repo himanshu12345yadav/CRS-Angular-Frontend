@@ -11,7 +11,7 @@ import { AdminService } from 'src/app/service/admin.service';
 })
 export class AddProfessorComponent implements OnInit {
 
-  professor: FormProfessor = new FormProfessor('', '', '', '', new Date(), 3, '', '', '');
+  professor: FormProfessor = new FormProfessor('', '', '', new Date(), 2, '', '');
 
   constructor(private formBuilder: FormBuilder,
     private adminService: AdminService,

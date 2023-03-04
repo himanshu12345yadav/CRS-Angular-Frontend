@@ -7,7 +7,7 @@ import { AdminService } from 'src/app/service/admin.service';
   templateUrl: './view-professors.component.html',
   styleUrls: ['./view-professors.component.css']
 })
-export class ViewProfessorComponent implements OnInit {
+export class ViewProfessorsComponent implements OnInit {
 
   professors: Professor[] = [];
 

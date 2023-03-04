@@ -16,7 +16,7 @@ import { LogoutComponent } from './component/logout/logout.component';
 import { HomeComponent } from './component/home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ViewCoursesComponent } from './component/view-courses/view-courses.component';
-import { ViewProfessorComponent } from './component/view-professors/view-professors.component';
+import { ViewProfessorsComponent } from './component/view-professors/view-professors.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +33,7 @@ import { ViewProfessorComponent } from './component/view-professors/view-profess
     LogoutComponent,
     HomeComponent,
     ViewCoursesComponent,
-    ViewProfessorComponent
+    ViewProfessorsComponent
   ],
   imports: [
     BrowserModule,
