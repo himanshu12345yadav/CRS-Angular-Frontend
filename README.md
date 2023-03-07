@@ -1,27 +1,35 @@
-# CRSAngularFrontend
+### CRS-Angular-Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.10.
+CRS-Angular-Frontend is the frontend part of the open-source Customer Registration System (CRS) designed to manage student registrations, grading, fee payments, course management, and dashboards for professors, admin, and students. This application is built using Angular, Typescript, Javascript, RxJS, and MVC design patterns.
 
-## Development server
+### Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Manage student registrations
+- Handle grading and fee payments
+- Dashboards for admin, professors, and students
+- Uses Singleton Pattern, Factory Pattern, Command Pattern
 
-## Code scaffolding
+### Installation
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Follow the steps below to install and run CRS-Angular-Frontend:
 
-## Build
+- Clone this repository using git.
+- Install Node.js and Angular CLI if you don't have them already.
+- Open a terminal or command prompt and navigate to the root folder of the project.
+- Run the following command to install the required dependencies:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```bash
+npm install
+```
 
-## Running unit tests
+Run the following command to start the development server:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+ng serve
+```
 
-## Running end-to-end tests
+Open a web browser and navigate to http://localhost:4200 to access the application.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### License
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+This project is licensed under the terms of the MIT license.
